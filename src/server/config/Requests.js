@@ -34,3 +34,5 @@ export const EditFunc = (url, data, method = "PUT") => {
   };
   return HttpRequestHub(config);
 };
+
+

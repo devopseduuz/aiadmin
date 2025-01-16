@@ -90,3 +90,13 @@ export const CreateOfferConfig = (data) => {
   };
   return axiosInstanceNoAuth(config);
 };
+
+
+export const login = (data) => {
+  const config = {
+    data,
+    method: "POST",
+    url: `auth/login`,
+  };
+  return axiosInstanceNoAuth(config);
+};
