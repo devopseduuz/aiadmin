@@ -365,7 +365,7 @@ i18n
             blog2:
               "The 6th Global Entrepreneurship Week GEW-2022 (Global Entrepreneurship Week) has been launched at TEAM University in Tashkent.",
             blog3: `On the concept of "artificial intelligence".`,
-            partners: "Members",
+            partners: "Partners",
             organizations: "Organizations",
             universities: "Universities and research institutes",
             startups: "Startups and venture funds",
