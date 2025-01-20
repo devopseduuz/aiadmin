@@ -376,7 +376,7 @@ const Home: React.FC = () => {
 
         <div className="container">
           <div className="home__ministr">
-            <h2 className="section_title">{t("nav.about")}</h2>
+            <h2 className="section_title">{t("home.ministers_view")}</h2>
 
             <div>
               <p>

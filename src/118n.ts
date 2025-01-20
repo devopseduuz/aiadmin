@@ -29,6 +29,12 @@ i18n
             "O‘ZBEKISTON RESPUBLIKASI OLIY TA’LIM, FAN VA INNOVATSIYALAR VAZIRLIGI",
           nav: {
             about: "Kengash haqida",
+            about_description: [
+              "SI Maslahat kengashi Oliy taʼlim, fan va innovatsiyalar vazirligi qoshida tashkil etilgan boʻlib, mamlakatimizda qabul qilingan asosiy hujjatlar va dasturlar asosida yaratilgan poydevorga tayangan holda keyinchalik O‘zbekiston iqtisodiyotida eksperimentlardan haqiqiy jiddiy tatbiqlarga o‘tishni ta’minlaydigan, shu orqali sun’iy intellekt taqdim etayotgan vositalar va imkoniyatlar tufayli har bir fuqaroning farovonligini oshirishga xizmat qiladigan ilmiy tadqiqotlar, amaliy startaplar va boshqa tashabbuslar uchun turli ilg‘or g‘oyalarni taklif eta oladigan, muhim mutaxassislar hamjamiyatini (professional komyunitini) shakllantirish uchun shart-sharoitlar yaratish <strong>maqsadida</strong> tuzilgan.",
+              "Kengash <strong>vazifalariga</strong> individual loyihalarni rivojlantirish, istiqbolli tashabbuslarni tayyorlash va ularni “1+1” ikki emas, balki ancha katta natijaga aylanganda sinergik jarayonga aylanadigan tarzda birlashtirish imkoniyatlarini topish kiradi. Shuningdek, SIdan ongli va axloqiy foydalanish ustida ishlayotgan global hamjamiyatga qo'shilish uchun xalqaro aloqalarni o'rnatish.",
+              "Ilg‘or amaliyot va tajribani har tomonlama muhokama qilish hamda har bir muammoni to‘liq anglash uchun turli tomonlardan ko‘rib chiqish Kengashning samarali faoliyatining asosiy <strong>vositasi</strong> hisoblanadi. Shu bois muhokama jarayonida iqtisodiy taraqqiyotga, hayotiy tajribaga, bilim va malakaga turlicha qarashlarga ega bo‘lgan shaxslarning ishtirok etishi nihoyatda muhimdir.",
+              "Kengash faoliyatida 10 ta davlatdan xalqaro tashkilotlar hamda xorijiy universitetlar vakillari va ekspertlari, yirik mahalliy tashkilotlar vakillari, ilg‘or startap loyihalar asoschilari va yetakchilari, xususiy sektor, akademik va ekspert doiralari, ommaviy axborot vositalari vakillari, shuningdek, taniqli jamoat arboblari ishtirok etadi.",
+            ],
             projects: "Loyihalar",
             edu: "Ta'lim",
             blog: "Blog",
@@ -39,27 +45,27 @@ i18n
           },
           home: {
             title:
-              "O'zR OTFIV huzuridagi Sun’iy intellekt bo‘yicha maslahat kengashi",
+              "OTFIV huzuridagi Sun’iy intellekt bo‘yicha maslahat kengashi",
             title2:
               "O‘zbekiston turkiy dunyoning IT-mutaxassislarini birlashtirdi",
             info: "Raqamlashtirish boʻyicha mutaxassislar forumi “aqlli shaharlar” sohasida bilim va tajriba almashish uchun muhim platforma boʻlib xizmat qilishi hamda Turkiy davlatlar tashkiloti davlatlarining tegishli davlat organlariga tavsiyalar berishi kerak.",
             more: "Batafsil",
-            mission: "Missiya",
+            mission: "Kengash haqida",
             mission_title:
-              "Maslahat kengashining asosiy maqsadi ilmiy tadqiqotlar, amaliy startaplar va boshqa tashabbuslarni rivojlantirish uchun turli ilg‘or g‘oyalarini taklif qila oluvchi muhim mutaxassislar hamjamiyati (professional komyuniti)ni shakllantirish uchun shart-sharoit yaratish hamda keyinchalik sun’iy intellekt texnologiyalari vositalari va imkoniyatlarini O‘zbekiston iqtisodiyotining turli sohalariga joriy qilish orqali fuqarolar farovonligini oshirishga xizmat qilish hisoblanadi.",
+              "Maslahat kengashi mamlakatimizda qabul qilingan asosiy hujjatlar va dasturlar asosida yaratilgan poydevorga tayangan holda keyinchalik O‘zbekiston iqtisodiyotida eksperimentlardan haqiqiy jiddiy tatbiqlarga o‘tishni ta’minlaydigan, shu orqali sun’iy intellekt taqdim etayotgan vositalar va imkoniyatlar tufayli har bir fuqaroning farovonligini oshirishga xizmat qiladigan ilmiy tadqiqotlar, amaliy startaplar va boshqa tashabbuslar uchun turli ilg‘or g‘oyalarni taklif eta oladigan, muhim mutaxassislar hamjamiyatini (professional komyunitini) shakllantirish uchun shart-sharoitlar yaratish maqsadida tuzilgan.",
             work_title: "FAOLIYAT YO'NALISHLARI",
-            work1: "Tibbiyotda sun`iy intelekt",
+            work1: "GOVERNMENT AI READINESS INDEX",
             work2: "Sun'iy intellekt etikasi",
             work3: "Ta'lim",
-            work4: "Turizm va kreativ industriyalar",
+            work4: "TA'LIMDA SI",
             work1_info:
-              "Sun'iy intellekt texnologiyalaridan foydalangan holda tibbiyot va sog'liqni saqlash sohalari uchun echimlarni taklif eting",
+              "Oxford Insights xalqaro tadqiqot markazi tomonidan tuzilgan hukumatning sunʼiy intellektga tayyorligi indeksida Oʻzbekiston darajasini yaxshilashga hissa qoʻshish.",
             work2_info:
-              "Mamlakatda shakllangan madaniyat va qadriyatlarni hisobga olgan holda sun'iy intellektning etika kodeksini ishlab chiqish",
+              "Ta'lim jarayonlarida SIdan foydalanishning etika tamoyillari, me'yorlari va standartlarini shakllantirish va muhokama qilish. Taʼlimda SIdan foydalanishda maxfiylik, maʼlumotlar xavfsizligi va javobgarlik masalalarini tadqiq qilish. Ta'lim muassasalarida SIni joriy etishning etika masalalari bo'yicha tavsiyalar va ko'rsatmalar ishlab chiqish.",
             work3_info:
-              "O‘zbekistonda sun’iy intellektni o‘qitish jarayoni samaradorligini oshirishga hissa qo‘shish",
+              "Oʻrta va yuqori sinflar, oʻrta maxsus va oliy taʼlim muassasalari oʻqituvchilari va talabalari uchun taʼlim dasturlarini, shuningdek, iqtisodiyotning turli tarmoqlarida barcha darajadagi rahbar va mutaxassislarning malakasini oshirish va kasbiy qayta tayyorlash kurslarini yaratish va amalga oshirishga koʻmaklashish. SI sohasida stajirovkalarni tashkil etishda yordam berish. O'qituvchilar va ma'muriy xodimlar o'rtasida SI sohasida habardorlik va bilimlarni oshirishga bag'ishlangan treninglar, seminarlar va tadbirlarni tashkil etish.",
             work4_info:
-              "Raqamli texnologiyalar va sun'iy intellekt texnologiyalaridan foydalangan holda turizm va madaniyat uchun yechimlarni taklif eting",
+              "Ta'lim jarayonlarini avtomatlashtirish va optimallashtirish, ta’lim olishni personallashtirish va innovatsion ta'lim vositalarini yaratish uchun sun'iy intellekt imkoniyatlarini tadqiq qilish. Ta’lim muassasalarida SI texnologiyalarini joriy etish bo‘yicha amaliy tavsiyalar va ko‘rsatmalar ishlab chiqish.",
             download: "Nizom matnini yuklab olish",
             blog: "Blog",
             blog1:
@@ -71,11 +77,12 @@ i18n
             organizations: "Tashkilotlar",
             universities: "Universitetlar va ilmiy-tadqiqot institutlari",
             startups: "Startaplar va venchur fondlari",
+            ministers_view: "VAZIR FIKRI",
             about_info:
-              "— Texnologiyalar hayotimizga jadal sur’atlar bilan kirib kelmoqda va bu jarayonga hech bir omil to‘siq bo‘la olmaydi, nazarimda. Ammo texnologik rivojlanish, raqamlashtirish hamda globallashuv ta’sirida kelajakda insoniyatni ishchi o‘rinlarini yo‘qotishi bilan bog‘liq muammolar kutib turgan bo‘lishi mumkin. Shu sababli, faqat inson aql-idroki qodir bo‘lgan, texnologiyalar bajarishi imkonsiz hisoblangan ijodiy vazifalarni o‘z ichiga olgan yangi ishchi o‘rinlarini yaratish  va shu vazifalarini uddalashga  qodir kadrlarni yetishtirish bizning asosiy maqsadlarimizdan biriga aylanishi kerak. Sun’iy intellekt texnologiyalari kundan kunga rivojlanib, takomillashib bormoqda. Biroq bu texnologiyalar uchun qat’iy belgilangan etika qoidalari mavjud emas. Texnologiyalar bugun bo‘lmasa, ertaga jamiyatimizdagi har bir shaxsning hayotiga aralashishi mumkin. Mana shu aralashuvning sarhadlarini belgilash ustida ham sizu biz ishlashimiz darkor.  Bu sohada yetakchi bo‘lgan ko‘plab rivojlangan mamlakatlar tajribasidan kelib chiqib, etika qoidalarini yaratishimiz mumkin. Biroq, madaniyat va milliy qadriyatlar masalasi nima bo‘ladi? Innovatsiyalar yaratar ekanmiz, yangi texnologiyalarni joriy etar ekanmiz, ularning jamiyatimiz ongu shuuriga ta’sirini o‘rganishimiz, uni oldini olishimiz, bu borada siyosat yuritishimiz darkor.",
+              "Sun'iy intellekt ta'lim va ilm-fan sohalarini qayta shakllantirishda muhim rol o'ynaydi, samarali o'qitish va ilmiy kashfiyotlarni tezlashtirish uchun noyob vositalarni taqdim etib, kelajakdagi taraqqiyot uchun imkoniyatlar yaratadi.",
             about_info2:
               "Ishni oddiy va jo‘n ko‘ringan vazifalardan boshlaganimizga qaramay, oldimizda mashaqqatli vazifa turibdi. Bu mashaqqatni yengib o‘tish uchun esa, kelgusi 50 yil uchun o‘z qarashlarimiz va ustuvor yo‘nalishlarimizni belgilab olishimiz zarur.",
-            about_name: "Ibroxim Abduraxmonov",
+            about_name: "Kongratbay Sharipov",
             about_work:
               "O‘zbekiston Respublikasi Oliy ta’lim, fan va innovatsiyalar vaziri",
             email: "Yangiliklarga obuna bo'ling",
@@ -266,13 +273,13 @@ i18n
               documents: "Hujjatlar",
             },
             project: {
-              catalog: "Filtrlar bilan loyiha katalogi",
+              catalog: "Loyihalar katalogi",
               list: "Tadbirlar ro'yxati",
             },
             blog: {
               news: "Yangiliklar",
               state: "Maqolalar",
-              anons: "Tadbirlar anonlari",
+              anons: "Anonslar",
             },
           },
           newsTitle: "yangilik",
@@ -286,9 +293,19 @@ i18n
             info: `O'zingizni qiziqtirgan savolingizni yozing, tez orada javob beramiz`,
           },
           development: {
-            title: `Loyihalar tayyorlanmoqda va yaqin kunlarda shu yerda e'lon qilinadi.`,
+            title: `Kengash faoliyatining asosiy yo‘nalishlari:`,
             info: `Loyihalar ro'yxati:`,
-            name1: `O‘zbekistonda sun’iy intellektning axloq kodeksini ishlab chiqish`,
+            list: [
+              "SI ni joriy qilish bilan bog'liq axloqiy va ijtimoiy masalalar;",
+              "o‘rta va yuqori sinflar, o‘rta maxsus va oliy ta’lim muassasalari o‘qituvchilari va talabalari uchun ta’lim dasturlarini, shuningdek, iqtisodiyotning turli tarmoqlarida barcha darajadagi rahbar va mutaxassislarni malakasini oshirish va qayta tayyorlash kurslarini yaratish va joriy qilishga ko‘maklashish;",
+              "SI sohasida innovatsion va ilmiy-amaliy loyihalarni rivojlantirishga hissa qo‘shish;",
+              "Oxford Insights xalqaro tadqiqot markazi tomonidan shakllantiriladigan Hukumat SIga tayyorlik indeksida O‘zbekiston darajasini yaxshilashga hissa qo‘shish;",
+              "nashriyot dasturi va ilmiy-ommabop ta'lim kanallarini shakllantirish;",
+              "SI texnologiyalarini ommalashtirish va jamoatchilik bilan muloqotni ta'minlash bo'yicha tadbirlarni tashkil etish va o'tkazish;",
+              "O‘zbekiston Respublikasida SI mavzusi bo‘yicha turli dastur va tashabbuslarda ishtirok etish, zarur qonunchilik va qonunosti hujjatlarini tayyorlashga ko‘maklashish;",
+              "SIdan foydalangan holda tizimlar va xizmatlarning ishlashi uchun asos sifatida O‘zbekiston Respublikasi iqtisodiyotining barcha sohalarida yuqori sifatli ma’lumotlarni yaratish, to‘plash va ochiqligini ta’minlashga ko‘maklashish;",
+              "Xalqaro hamkorlikni rivojlantirish.",
+            ],
           },
           education: {
             title: `Ta’lim loyihalari katalogi shakllantirilmoqda va yaqin orada bu yerda e’lon qilinadi.`,
@@ -304,6 +321,12 @@ i18n
             "MINISTRY OF HIGHER EDUCATION, SCIENCE AND INNOVATIONS OF THE REPUBLIC OF UZBEKISTAN",
           nav: {
             about: "About",
+            about_description: [
+              "The AI Advisory Council was established under the auspices of the Ministry of Higher Education, Science, and Innovation, with the <strong>aim</strong> of cultivating a significant community of professionals. Relying on the foundations set by the key documents and programs implemented in the country, this community is expected to propose various innovative ideas for scientific research, practical startups, and foster other initiatives. These efforts will subsequently facilitate a transition from experiments to serious practical implementations in Uzbekistan's economy, thus improving every resident's well-being through AI's tools and opportunities.",
+              "The Council's <strong>responsibilities</strong> include developing individual projects, formulating prospective initiatives, and identifying opportunities to amalgamate them into a synergistic process where \"1+1\" yields a result far greater than two. Furthermore, it is responsible for establishing international connections, aiming to integrate into the global community that advocates for AI's conscious and ethical utilization.",
+              "A vital <strong>element</strong> of the Council's effective operation is the comprehensive discussion of best practices and experiences and considering each issue from different angles for a complete understanding. It's extremely important that the discussion involves individuals with diverse perspectives on economic development, life experiences, education, and skills.",
+              "The Council's operations involve representatives and experts from international organizations and universities from 10 countries, major domestic organizations, founders, and leaders of advanced startup projects, private sector representatives, academic and expert communities, media, and notable public figures.",
+            ],
             projects: "Projects",
             edu: "Education",
             blog: "Blog",
@@ -314,27 +337,27 @@ i18n
           },
           home: {
             title:
-              "Advisory Council on Artificial Intelligence under the MHESI RUz",
+              "Advisory Council on Artificial Intelligence under the MHESI",
             title2:
               "Uzbekistan brought together IT specialists from the Turkic world",
             info: "The Forum of Digitalization Specialists should serve as an important platform for the exchange of knowledge and experience in the field of 'smart cities' and provide recommendations to the relevant government agencies of the ATC countries",
             more: "More",
-            mission: "Mission",
+            mission: "About",
             mission_title:
-              "The Advisory Council was formed with the aim of creating conditions for the formation of a significant community of specialists (professional community) who, based on the foundation laid by the documents and programs adopted in the Country, will be able to offer innovative ideas for scientific research, practical start-ups and develop other initiatives that will subsequently ensure the transition from experiments to real implementations technology and processes based on artificial intelligence into the economy of Uzbekistan, thereby improving the quality of life of citizens of the Republic of Uzbekistan.",
+              "The Advisory Council was formed with the aim of creating opportunities for the formation of a significant community of specialists (professional community) who will be able, based on the foundation laid by the main documents and programs adopted in the country, to offer various breakthrough ideas in scientific research, practical startups, and develop other initiatives that will subsequently ensure the transition from experiments to real serious implementations in the economy of Uzbekistan, thereby increasing the well-being of every resident thanks to the tools and opportunities that AI provides.",
             work_title: "AREAS OF WORK",
-            work1: "Artificial intelligence in medicine",
+            work1: "GOVERNMENT AI READINESS INDEX",
             work2: "The ethics of artificial intelligence",
             work3: "Education",
-            work4: "Tourism and Creative Industries",
+            work4: "AI IN EDUCATION",
             work1_info:
-              "Offer solutions for the field of medicine and healthcare using artificial intelligence technologies",
+              "Contributing to the improvement of Uzbekistan's level in the government's readiness index for And, formed by Oxford Insights and the International Research Center.",
             work2_info:
-              "Development of an ethical code for artificial intelligence, taking into account the culture and values that have formed in the country",
+              "Discussion and formulation of ethical principles, norms, and standards for the use of AI in educational processes. Research on issues of confidentiality, data security, and responsibility when using AI in education. Development of recommendations and guidelines on ethical issues of AI implementation in educational institutions.",
             work3_info:
-              "Contribute to improving the efficiency of the process of teaching artificial intelligence in Uzbekistan",
+              "Creation and promotion of educational programs for teachers and students of secondary and senior classes, institutions of secondary specialized and higher education, as well as advanced training courses and professional retraining of managers and specialists of all levels in various spheres of the economy. Assistance in organizing internships in the field of AI. Organization of trainings, seminars, and events dedicated to raising awareness and knowledge in the field and among teachers and administrative staff.",
             work4_info:
-              "Offer solutions for tourism and culture using digital technologies and artificial intelligence technologies",
+              "Research of AI potential for automation and optimization of educational processes, personalization of training and creation of innovative educational tools. Development of practical recommendations and guidelines for the introduction of AI technologies in educational institutions.",
             download: "Download PDF",
             blog: "Blog",
             blog1:
@@ -346,11 +369,12 @@ i18n
             organizations: "Organizations",
             universities: "Universities and research institutes",
             startups: "Startups and venture funds",
+            ministers_view: "THE MINISTER'S VIEW",
             about_info:
-              "- Technology is rapidly entering our lives, and, in my opinion, no factor can interfere with this process. But due to the development of technology, digitalization and globalization, the problems associated with the loss of jobs may await humanity in the future. Therefore, one of our main goals should be the creation of new jobs that include creative tasks that only human intelligence is capable of, which are considered impossible to perform by technical means, and the training of personnel capable of performing these tasks. Artificial intelligence technologies are developing and improving day by day. However, there are no strictly defined ethical rules for these technologies. Technology can interfere with the lives of every person in our society, if not today, then tomorrow. You and I need to work on defining the boundaries of this interference. Based on the experience of many developed countries that are leaders in this field, we can create rules of ethics. But what about the issues of culture and national values? As we innovate, as we introduce new technologies, we need to study their impact on the consciousness of our society, prevent it and implement policies in connection with it.",
+              "Artificial intelligence plays a key role in transforming education and science, providing unique tools for effective learning and accelerating scientific discoveries, creating opportunities for future progress.",
             about_info2:
               "Despite the fact that we started with seemingly simple tasks, we have a difficult task ahead of us. To overcome this challenge, we need to define our vision and priorities for the next 50 years.",
-            about_name: "Ibrahim Abdurakhmanov",
+            about_name: "Kongratbay Sharipov",
             about_work:
               "Minister of Higher Education, Science and Innovation of the Republic of Uzbekistan",
             email: "Subscribe to news",
@@ -541,7 +565,7 @@ i18n
               documents: "Documentation",
             },
             project: {
-              catalog: "Project catalog with filters",
+              catalog: "Project catalog",
               list: "List of events",
             },
             blog: {
@@ -561,9 +585,19 @@ i18n
             info: `Write your question, we will answer soon`,
           },
           development: {
-            title: `Projects are under preparation and will be announced here in the near future.`,
+            title: `The main activities of the Council:`,
             info: `List of projects:`,
-            name1: `Development of a code of ethics for artificial intelligence in Uzbekistan`,
+            list: [
+              `Developing proposals aimed at resolving ethical and social challenges associated with the implementation of AI`,
+              `Creating and facilitating the implementation of educational programs for middle and high school teachers and students, vocational and higher education institutions, as well as providing continuing education and professional retraining courses for managers and specialists at all levels across various economic sectors.`,
+              "Supporting the development of innovative and applied science projects in the field of AI.",
+              "Assisting in improving Uzbekistan's ranking in the Government AI Readiness Index, which is formulated by Oxford Insights and the International Research Center.",
+              "Developing a publishing program and popular science educational channels.",
+              "Organizing and conducting activities to popularize AI technologies and facilitating public dialogue.",
+              "Participating in various AI-related programs and initiatives in the Republic of Uzbekistan, assisting in the preparation of necessary legislative and regulatory acts.",
+              "Promoting the creation, collection, and openness of high-quality data in all sectors of Uzbekistan's economy, which serves as a basis for the operation of AI-based systems and services.",
+              "Fostering international cooperation.",
+            ],
           },
           education: {
             title: `A catalog of educational projects is being formed and will be announced here in the near future.`,
@@ -579,6 +613,12 @@ i18n
             "Министерство высшего образования, науки и инноваций Республики Узбекистан",
           nav: {
             about: "О совете",
+            about_description: [
+              "Консультативный совет по ИИ образован при Министерстве высшего образования науки и инноваций, с <strong>целью</strong> создания условий для формирования значимого сообщества специалистов (профессионального комьюнити), которые смогут, основываясь на фундаменте, заложенном основными принятыми в стране документами и программами, предложить различные прорывные идеи научных исследований, практических стартапов и развить другие инициативы, которые впоследствии обеспечат переход от экспериментов к реальным серьезным внедрениям в экономику Узбекистана, тем самым повышая благосостояние каждого жителя благодаря инструментам и возможностям, которые дает ИИ.",
+              "В <strong>задачи</strong> Совета входит развивать отдельные проекты, прорабатывать перспективные инициативы и находить возможности для их объединения таким образом, чтобы это стало синергетическим процессом, когда «1+1» становится равно не два, а значительно большему результату. А также – установление международных контактов, чтобы интегрироваться в мировое сообщество, которое работает над осознанным и этичным использованием ИИ.",
+              "Основным <strong>инструментом</strong> эффективной работы Совета является всестороннее обсуждение лучших практик и опыта и рассмотрение каждой проблемы с разных сторон для полноценного ее осмысления. Поэтому крайне важно, чтобы в процессе обсуждения участвовали люди с разными взглядами на развитие экономики, жизненным опытом, образованием и компетенциями.",
+              "В работе совета принимают участие представители и эксперты из международных организаций и зарубежных университетов 10 стран, представители крупных отечественных организаций, основатели и руководители передовых стартап-проектов, представители частного сектора, академических и экспертных кругов, СМИ, а также видные общественные деятели.",
+            ],
             projects: "Проекты",
             edu: "Образование",
             blog: "Блог",
@@ -619,6 +659,7 @@ i18n
             organizations: "Организации",
             universities: "Университеты и НИИ",
             startups: "Стартапы и венчурные фонды",
+            ministers_view: "ВЗГЛЯД МИНИСТРА",
             about_info:
               "«Искусственный интеллект играет ключевую роль в преобразовании образования и науки, предоставляя уникальные инструменты для эффективного обучения и ускорения научных открытий, создавая возможности для будущего прогресса.»",
             about_info2:
@@ -835,9 +876,18 @@ i18n
             info: `Напишите свой вопрос, мы ответим в ближайшее время`,
           },
           development: {
-            title: `Проекты на этапе подготовки и будут здесь анонсированы в ближайшее время.`,
+            title: `Основные направления деятельности совета:`,
             info: `Список проектов:`,
-            name1: `Разработка кодекса этики искусственного интеллекта Узбекистана`,
+            list: [
+              "Этические и социальные вопросы, связанные с внедрением ИИ;",
+              "Создание и содействие внедрению образовательных программ для преподавателей и учащихся средних и старших классов, учреждений среднего специального и высшего образования, а также курсов повышения квалификации и профессиональной переподготовки руководителей и специалистов всех уровней в различных сферах экономики;",
+              "Способствование повышению уровня Узбекистана в индексе готовности правительства к ИИ (Government AI Readiness Index), формируемого Oxford Insights и Международным научно-исследовательским центром;",
+              "Формирование издательской программы и научно-популярных просветительских каналов;",
+              "Организация и проведение мероприятий для популяризации технологий ИИ и обеспечения общественного диалога;",
+              "Участие в различных программах и инициативах по теме ИИ в Республике Узбекистан, помощь в подготовке необходимых законодательных и подзаконных актов;",
+              "Способствование созданию, сбору и открытости качественных данных во всех сферах экономики РУз, как основы для работы систем и сервисов с использованием ИИ;",
+              "Развитие международного сотрудничества.",
+            ],
           },
           education: {
             title: `Формируется каталог образовательных проектов и будут здесь анонсированы в ближайшее время.`,

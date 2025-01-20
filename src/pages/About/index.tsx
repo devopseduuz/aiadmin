@@ -50,13 +50,25 @@ function About() {
       <Header />
       <div className="aboutpage ">
         <div className="container">
+          <h2 className="section_title" id="about" style={{ marginBottom: 20 }}>
+            {t("nav.about")}
+          </h2>
+
+          <div>
+            {
+              (t("nav.about_description", { returnObjects: true }) as string[]).map(el => (
+                <p style={{ marginBottom: 16, fontSize: 20 }} dangerouslySetInnerHTML={{ __html: el }} />
+              ))
+            }
+          </div>
+
           <h2 className="section_title" id="member">
             {t("nav.about2")}
           </h2>
 
           <SliderMulti members={members || []} />
 
-          <h2 className="section_title" id="group">
+          {/* <h2 className="section_title" id="group">
             {t("about.work_group")}
           </h2>
           <p className="aboutpage__info">{t("about.work_info")}</p>
@@ -114,7 +126,7 @@ function About() {
                 <p>{t("about.work4.name")}</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div id="azo">

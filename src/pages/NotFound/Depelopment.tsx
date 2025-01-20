@@ -16,9 +16,10 @@ function Depelopment() {
         {location.search.includes("projects") ? (
           <div className="container">
             <h1>{t("development.title")}</h1>
-            <h3>{t("development.info")}</h3>
-            <ul>
-              <li>{t("development.name1")}</li>
+            {/* <h3>{t("development.info")}</h3> */}
+            <ul>{(t("development.list", { returnObjects: true }) as string[]).map(el => (
+              <li>{el}</li>
+            ))}
             </ul>
           </div>
         ) : location.search.includes("education") ? (
