@@ -17,10 +17,6 @@ function Footer() {
       <div className="container">
         <div className="footer__nav">
           <div className="footer__info">
-            <Link to={"/"} className="logo">
-              <img src={require("../../assets/images/logo.png")} alt="" />
-              <span>{t("ministr")}</span>
-            </Link>
             <div className="flex">
               <a
                 href="https://www.instagram.com/aicouncil_uz/"
@@ -51,6 +47,10 @@ function Footer() {
                 <MailSVG />
               </a>
             </div>
+            <Link to={"/"} className="logo">
+              <img className="footer_logo" src={'logo.png'} alt="" />
+              {/* <span>{t("ministr")}</span> */}
+            </Link>
           </div>
           <div className="footer__contact">
             <h4>{t("nav.about")}</h4>
@@ -60,13 +60,6 @@ function Footer() {
               onClick={() => navigate("/about")}
             >
               <span>{t("footer.about.work")}</span>
-            </a>
-            <a
-              href="#group"
-              className="contact"
-              onClick={() => navigate("/about")}
-            >
-              <span>{t("footer.about.group")}</span>
             </a>
             <a
               href="#azo"
@@ -113,7 +106,7 @@ function Footer() {
             target={"_blank"}
             style={{ color: "white" }}
           >
-            {t("home.made")}
+            {new Date().getFullYear()} {t("home.made")}
           </a>
         </p>
       </div>

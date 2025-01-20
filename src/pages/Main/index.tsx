@@ -27,13 +27,13 @@ const Home: React.FC = () => {
       // message.success(data?.message);
       localStorage.getItem("lang") == "RU"
         ? message.success(
-            "Ваше сообщение успешно сохранено, мы ответим вам в ближайшее время"
-          )
+          "Ваше сообщение успешно сохранено, мы ответим вам в ближайшее время"
+        )
         : localStorage.getItem("lang") == "EN"
-        ? message.success(
+          ? message.success(
             "Your message has been successfully saved, we will reply to you as soon as possible."
           )
-        : message.success(
+          : message.success(
             "Xabaringiz muvaffaqiyatli saqlandi, biz sizga imkon qadar tezroq javob beramiz."
           );
       form.resetFields();
@@ -47,14 +47,14 @@ const Home: React.FC = () => {
       return lang == "RU"
         ? news.titleRU
         : lang == "EN"
-        ? news.titleEN
-        : news.titleUZ;
+          ? news.titleEN
+          : news.titleUZ;
     } else if (title == "anons") {
       return lang == "RU"
         ? news.anonsRU
         : lang == "EN"
-        ? news.anonsEN
-        : news.anonsUZ;
+          ? news.anonsEN
+          : news.anonsUZ;
     }
   };
   const GiveDate = (date: string) => {
@@ -120,7 +120,7 @@ const Home: React.FC = () => {
 
   return (
     <>
-      <Alert
+      {/* <Alert
         banner
         type="info"
         message={
@@ -128,7 +128,7 @@ const Home: React.FC = () => {
             {t("test")}
           </Marquee>
         }
-      />
+      /> */}
       <Header />
 
       <div className="home">
@@ -181,10 +181,10 @@ const Home: React.FC = () => {
                   style={
                     work == 2
                       ? {
-                          borderColor: "#FF9500",
-                          filter:
-                            "drop-shadow(0px 13px 43px rgba(0, 0, 0, 0.12))",
-                        }
+                        borderColor: "#FF9500",
+                        filter:
+                          "drop-shadow(0px 13px 43px rgba(0, 0, 0, 0.12))",
+                      }
                       : {}
                   }
                 >
@@ -227,10 +227,10 @@ const Home: React.FC = () => {
                   style={
                     work == 3
                       ? {
-                          borderColor: "#5856D6",
-                          filter:
-                            "drop-shadow(0px 13px 43px rgba(0, 0, 0, 0.12))",
-                        }
+                        borderColor: "#5856D6",
+                        filter:
+                          "drop-shadow(0px 13px 43px rgba(0, 0, 0, 0.12))",
+                      }
                       : {}
                   }
                 >
@@ -261,10 +261,10 @@ const Home: React.FC = () => {
                   style={
                     work == 4
                       ? {
-                          borderColor: "#34C759",
-                          filter:
-                            "drop-shadow(0px 13px 43px rgba(0, 0, 0, 0.12))",
-                        }
+                        borderColor: "#34C759",
+                        filter:
+                          "drop-shadow(0px 13px 43px rgba(0, 0, 0, 0.12))",
+                      }
                       : {}
                   }
                 >
@@ -295,10 +295,10 @@ const Home: React.FC = () => {
                   style={
                     work == 5
                       ? {
-                          borderColor: "#3395ff",
-                          filter:
-                            "drop-shadow(0px 13px 43px rgba(0, 0, 0, 0.12))",
-                        }
+                        borderColor: "#3395ff",
+                        filter:
+                          "drop-shadow(0px 13px 43px rgba(0, 0, 0, 0.12))",
+                      }
                       : {}
                   }
                 >
@@ -381,9 +381,6 @@ const Home: React.FC = () => {
             <div>
               <p>
                 {t("home.about_info")}
-                <br />
-                <br />
-                {t("home.about_info2")}
               </p>
 
               <div className="flex">
@@ -391,7 +388,7 @@ const Home: React.FC = () => {
                   <h3>{t("home.about_name")}</h3>
                   <h4>{t("home.about_work")}</h4>
                 </div>
-                <img src={require("src/assets/images/ministr.png")} alt="" />
+                <img className="minister-image" src={require("src/assets/images/ministr.jpg")} alt="" />
               </div>
             </div>
           </div>

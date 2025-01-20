@@ -68,6 +68,9 @@ i18n
               "Toshkentdagi TEAM universitetida 6th Global Entrepreneurship Week GEW-2022 (Global Entrepreneurship Week) boshlandi.",
             blog3: `"Sun'iy intellekt" tushunchasi haqida.`,
             partners: "Ishtirokchilar",
+            organizations: "Tashkilotlar",
+            universities: "Universitetlar va ilmiy-tadqiqot institutlari",
+            startups: "Startaplar va venchur fondlari",
             about_info:
               "— Texnologiyalar hayotimizga jadal sur’atlar bilan kirib kelmoqda va bu jarayonga hech bir omil to‘siq bo‘la olmaydi, nazarimda. Ammo texnologik rivojlanish, raqamlashtirish hamda globallashuv ta’sirida kelajakda insoniyatni ishchi o‘rinlarini yo‘qotishi bilan bog‘liq muammolar kutib turgan bo‘lishi mumkin. Shu sababli, faqat inson aql-idroki qodir bo‘lgan, texnologiyalar bajarishi imkonsiz hisoblangan ijodiy vazifalarni o‘z ichiga olgan yangi ishchi o‘rinlarini yaratish  va shu vazifalarini uddalashga  qodir kadrlarni yetishtirish bizning asosiy maqsadlarimizdan biriga aylanishi kerak. Sun’iy intellekt texnologiyalari kundan kunga rivojlanib, takomillashib bormoqda. Biroq bu texnologiyalar uchun qat’iy belgilangan etika qoidalari mavjud emas. Texnologiyalar bugun bo‘lmasa, ertaga jamiyatimizdagi har bir shaxsning hayotiga aralashishi mumkin. Mana shu aralashuvning sarhadlarini belgilash ustida ham sizu biz ishlashimiz darkor.  Bu sohada yetakchi bo‘lgan ko‘plab rivojlangan mamlakatlar tajribasidan kelib chiqib, etika qoidalarini yaratishimiz mumkin. Biroq, madaniyat va milliy qadriyatlar masalasi nima bo‘ladi? Innovatsiyalar yaratar ekanmiz, yangi texnologiyalarni joriy etar ekanmiz, ularning jamiyatimiz ongu shuuriga ta’sirini o‘rganishimiz, uni oldini olishimiz, bu borada siyosat yuritishimiz darkor.",
             about_info2:
@@ -88,7 +91,7 @@ i18n
             instagram: "Instagram",
             facebook: "Facebook",
             links: "Foydali havolalar",
-            made: "2022 © Ishlab chiqaruvchi: Raqamli taʼlim texnologiyalarini rivojlantirish markazi",
+            made: "© Ishlab chiqaruvchi: Raqamli taʼlim texnologiyalarini rivojlantirish markazi",
             news1:
               "Umumta’lim maktablari o‘qituvchilari uchun bepul o‘quv kursi yo‘lga qo‘yildi",
             news1_info:
@@ -340,6 +343,9 @@ i18n
               "The 6th Global Entrepreneurship Week GEW-2022 (Global Entrepreneurship Week) has been launched at TEAM University in Tashkent.",
             blog3: `On the concept of "artificial intelligence".`,
             partners: "Members",
+            organizations: "Organizations",
+            universities: "Universities and research institutes",
+            startups: "Startups and venture funds",
             about_info:
               "- Technology is rapidly entering our lives, and, in my opinion, no factor can interfere with this process. But due to the development of technology, digitalization and globalization, the problems associated with the loss of jobs may await humanity in the future. Therefore, one of our main goals should be the creation of new jobs that include creative tasks that only human intelligence is capable of, which are considered impossible to perform by technical means, and the training of personnel capable of performing these tasks. Artificial intelligence technologies are developing and improving day by day. However, there are no strictly defined ethical rules for these technologies. Technology can interfere with the lives of every person in our society, if not today, then tomorrow. You and I need to work on defining the boundaries of this interference. Based on the experience of many developed countries that are leaders in this field, we can create rules of ethics. But what about the issues of culture and national values? As we innovate, as we introduce new technologies, we need to study their impact on the consciousness of our society, prevent it and implement policies in connection with it.",
             about_info2:
@@ -360,7 +366,7 @@ i18n
             instagram: "Instagram",
             facebook: "Facebook",
             links: "Usefull links",
-            made: "2022 © Producer: Center for the Development of Digital Educational Technologies",
+            made: "© Producer: Center for the Development of Digital Educational Technologies",
 
             news1: "School Teachers Technical Skill Development Programme",
             news1_info:
@@ -583,26 +589,26 @@ i18n
           },
           home: {
             title:
-              "Консультативный совет по искусственному интеллекту при МВОНИ РУз",
+              "Консультативный совет по искусственному интеллекту при МВОНИ",
             title2: "Узбекистан собрал IT-специалистов тюркского мира",
             info: "Форум специалистов в сфере цифровизации должен послужить важной платформой для обмена знаниями и опытом в области «умных городов» и предоставить рекомендации для соответствующих государственных учреждений стран ОТГ",
             more: "Подробнее",
-            mission: "Миссия",
+            mission: "О совете",
             mission_title:
-              "Консультативный совет образован с целью создания условий для формирования значимого сообщества специалистов (профессионального комьюнити), которые смогут, основываясь на фундаменте, заложенном основными принятыми в стране документами и программами, предложить различные прорывные идеи научных исследований, практических стартапов и развить другие инициативы, которые впоследствии обеспечат переход от экспериментов к реальным серьезным внедрениям в экономику Узбекистана, тем самым повышая благосостояние каждого жителя благодаря инструментам и возможностям, которые дает искусственный интеллект.",
-            work_title: "Направленные работы",
-            work1: "Искусственный интеллект в медицине",
-            work2: "Этика искусственного интеллекта",
+              "Консультативный совет образован с целью создания условий для формирования значимого сообщества специалистов (профессионального комьюнити), которые смогут, основываясь на фундаменте, заложенном основными принятыми в стране документами и программами, предложить различные прорывные идеи научных исследований, практических стартапов и развить другие инициативы, которые впоследствии обеспечат переход от экспериментов к реальным серьезным внедрениям в экономику Узбекистана, тем самым повышая благосостояние каждого жителя благодаря инструментам и возможностям, которые дает ИИ.",
+            work_title: "ОСНОВНЫЕ НАПРАВЛЕНИЯ РАБОТЫ",
+            work1: "Government AI Readiness Index",
+            work2: "Этика ИИ",
             work3: "Образования",
-            work4: "Туризм и Креативные индустрии",
+            work4: "ИИ в образовании",
             work1_info:
-              "Предложить решений для сферы медицины и здравоохранение с использованием технологий искусственного интеллекта",
+              "Способствование повышению уровня Узбекистана в индексе готовности правительства к ИИ, формируемого Oxford Insights и международным научно-исследовательским центром.",
             work2_info:
-              "Разработка этического кодекса искусственного интеллекта с учетом культуры и ценностей, сформировавшихся в стране",
+              "Обсуждение и формулирование этических принципов, норм и стандартов для использования ИИ в образовательных процессах. Исследование вопросов конфиденциальности, безопасности данных и ответственности при использовании ИИ в образовании. Разработка рекомендаций и руководств по этическим вопросам внедрения ИИ в образовательные учреждения.",
             work3_info:
-              "Способствовать повышению эффективности процесса обучения искусственному интеллекту в Узбекистане",
+              "Создание и содействие внедрению образовательных программ для преподавателей и учащихся средних и старших классов, учреждений среднего специального и высшего образования, а также курсов повышения квалификации и профессиональной переподготовки руководителей и специалистов всех уровней в различных сферах экономики. Содействие в организации стажировок в области ИИ. Организация тренингов, семинаров и мероприятий, посвященных повышению осведомленности и знаний в области ИИ среди учителей и административного персонала.",
             work4_info:
-              "Предложить решений для сферы туризма и культуры с использованием цифровых технологий и технологий искусственного интеллекта",
+              "Исследование потенциала ИИ для автоматизации и оптимизации образовательных процессов, персонализации обучения и создания инновационных образовательных инструментов. Разработка практических рекомендаций и руководств по внедрению технологий ИИ в образовательные учреждения.",
             download: "Скачать Положение PDF",
             blog: "Блог",
             blog1:
@@ -610,11 +616,14 @@ i18n
             blog2: "О понятии «искусственный интеллект».",
             blog3: "О понятии «искусственный интеллект».",
             partners: "Партнёры",
+            organizations: "Организации",
+            universities: "Университеты и НИИ",
+            startups: "Стартапы и венчурные фонды",
             about_info:
-              "— Технологии стремительно входят в нашу жизнь, и, на мой взгляд, никакой фактор не может помешать этому процессу. Но в связи с развитием технологий, цифровизацией и глобализацией, проблемы, связанные с потерей рабочих мест, могут ждать человечество в будущем. Поэтому одной из наших основных целей должно быть создание новых рабочих мест, включающих в себя творческие задачи, на которые способен только человеческий интеллект, которые считаются невозможными для выполнения техническими средствами, и подготовка кадров, способных выполнять эти задачи. Технологии искусственного интеллекта развиваются и совершенствуются день ото дня. Однако для этих технологий нет строго определенных этических правил. Технологии могут вмешиваться в жизнь каждого человека в нашем обществе, если не сегодня, то завтра. Нам с вами нужно работать над определением границ этого вмешательства. Основываясь на опыте многих развитых стран, являющихся лидерами в этой области, мы можем создать правила этики. А как же вопросы культуры и национальных ценностей? По мере того, как мы создаем инновации, по мере того, как внедряем новые технологии, нам необходимо изучать их влияние на сознание нашего общества, предотвращать его и проводить политику в связи с этим.",
+              "«Искусственный интеллект играет ключевую роль в преобразовании образования и науки, предоставляя уникальные инструменты для эффективного обучения и ускорения научных открытий, создавая возможности для будущего прогресса.»",
             about_info2:
               "Несмотря на то, что мы начали с казалось бы, простых задач, перед нами стоит непростая задача. Чтобы преодолеть эту проблему, нам необходимо определить наше видение и приоритеты на следующие 50 лет.",
-            about_name: "Иброxим Абдураxмонов",
+            about_name: "Конгратбай Шарипов",
             about_work:
               "Министр высшего образования, науки и инноваций Республики Узбекистан",
             email: "Подписаться на новости",
@@ -630,7 +639,7 @@ i18n
             instagram: "Instagram",
             facebook: "Facebook",
             links: "Полезные ссылки",
-            made: "2022 © Разработчик: Центр развития цифровых образовательных технологий",
+            made: "© Разработчик: Центр развития цифровых образовательных технологий",
             news1:
               "Запущен бесплатный учебный курс для учителей среднеобразовательных школ",
             news1_info:
@@ -806,7 +815,7 @@ i18n
               documents: "Документы",
             },
             project: {
-              catalog: "Каталог проектов с фильтрами",
+              catalog: "Каталог проектов",
               list: "Список мероприятий",
             },
             blog: {
