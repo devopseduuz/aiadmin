@@ -13,6 +13,7 @@ function SliderMulti({ members }: { members: IMember[] }) {
     slidesToScroll: 1,
     autoplaySpeed: 5000,
     centerPadding: "10px",
+    arrows: true,
     responsive: [
       {
         breakpoint: 1400,
@@ -44,14 +45,14 @@ function SliderMulti({ members }: { members: IMember[] }) {
       return lang == "RU"
         ? member.fullNameRU
         : lang == "EN"
-        ? member.fullNameEN
-        : member.fullName;
+          ? member.fullNameEN
+          : member.fullName;
     } else {
       return lang == "RU"
         ? member.workPlaceRU
         : lang == "EN"
-        ? member.workPlaceEN
-        : member.workPlace;
+          ? member.workPlaceEN
+          : member.workPlace;
     }
   };
 

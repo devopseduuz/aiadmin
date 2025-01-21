@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import { Dropdown, MenuProps } from "antd";
 import { useTranslation } from "react-i18next";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { ENLANGSVG, OpenNavSVG, RULANGSVG, UZLANGSVG } from "../svg";
 
 const Header: React.FC = () => {
@@ -11,7 +11,7 @@ const Header: React.FC = () => {
   const [lang, setLang] = useState(localStorage.getItem("lang") ?? "RU");
 
   const Flags = ({ name }: { name: "UZ" | "RU" | "EN" }) => {
-    if (name == "UZ") {
+    if (name === "UZ") {
       return (
         <div className="language">
           <UZLANGSVG />
@@ -19,7 +19,7 @@ const Header: React.FC = () => {
           {/* <BottomSVG /> */}
         </div>
       );
-    } else if (name == "RU") {
+    } else if (name === "RU") {
       return (
         <div className="language">
           <RULANGSVG />
@@ -115,9 +115,9 @@ const Header: React.FC = () => {
         <div className="flex lang_mob">
           <Dropdown menu={{ items }} trigger={["click"]}>
             <div>
-              {lang == "UZ" ? (
+              {lang === "UZ" ? (
                 <Flags name="UZ" />
-              ) : lang == "RU" ? (
+              ) : lang === "RU" ? (
                 <Flags name="RU" />
               ) : (
                 <Flags name="EN" />
