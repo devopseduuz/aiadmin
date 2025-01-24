@@ -77,7 +77,7 @@ const Header: React.FC = () => {
       <div className="container flex">
         {/* Logo side */}
         <Link to={"/"} className="logo">
-          <img src={"logo.png"} alt="Company logo" />
+          <img src={"/logo.png"} alt="Company logo" />
           {/* <span>{t("ministr")}</span> */}
         </Link>
 

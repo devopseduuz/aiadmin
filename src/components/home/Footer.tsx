@@ -79,7 +79,7 @@ function Footer() {
 
           <div className="footer__contact">
             <h4>{t("nav.projects")}</h4>
-            <Link to={"#"} className="contact">
+            <Link to={"/development?projects"} className="contact">
               <span>{t("footer.project.catalog")}</span>
             </Link>
             <Link to={"#"} className="contact">
