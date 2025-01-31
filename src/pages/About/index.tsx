@@ -168,6 +168,17 @@ function About() {
                   {t("about.document4.name")}
                 </a>
               </div>
+              <div className="documents_item">
+                <img src={require("src/assets/images/doc5.png")} alt="" />
+                <a
+                  href={"https://lex.uz/ru/docs/-7158604"}
+                  target="_blank"
+                  download={true}
+                >
+                  {t("about.document5.name")}
+                </a>
+                <p>{t("about.document5.info")}</p>
+              </div>
             </Slider>
           </div>
         </div>

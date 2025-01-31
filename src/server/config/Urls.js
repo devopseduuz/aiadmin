@@ -55,7 +55,7 @@ export const PrimaryConfig = (id, type) => {
 
 // Get offers page
 export const GetOffersConfig = (param = "") => {
-  return GetFunc(`admin/offers?size=20${param}`);
+  return GetFunc(`admin/offers?${param}`);
 };
 export const SendOffersConfig = (param = "") => {
   return EditFunc(`admin/sendAnswer${param}`, "", "PATCH");
@@ -90,7 +90,6 @@ export const CreateOfferConfig = (data) => {
   };
   return axiosInstanceNoAuth(config);
 };
-
 
 export const login = (data) => {
   const config = {

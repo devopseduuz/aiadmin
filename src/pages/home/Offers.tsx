@@ -32,6 +32,7 @@ function Offers() {
   const [offers, setOffers] = useState<IOffer[]>([]);
   const [currentOffer, setCurrentOffer] = useState<IOffer[]>([]);
   const [loading, setLoading] = useState(false);
+  const [pageSize, setPageSize] = useState(Number(searchParams.get('size')) || 20);
 
   const items: TabsProps["items"] = [
     {
@@ -43,11 +44,13 @@ function Offers() {
       label: `Javob berilgan murojatlar`,
     },
   ];
+
   const columns: ColumnsType<IOffer> = [
     {
       title: "Ismi",
       dataIndex: "fullName",
       key: "fullName",
+      render: (_, record) => record.fullName
     },
     {
       title: "Telefon raqami",
@@ -55,6 +58,7 @@ function Offers() {
       key: "phoneNumber",
       align: "center",
       width: 400,
+      render: (_, record) => record.phoneNumber
     },
 
     {
@@ -63,6 +67,7 @@ function Offers() {
       key: "email",
       align: "center",
       width: 400,
+      render: (_, record) => record.email
     },
     {
       title: "Murojaat sanasi",
@@ -96,18 +101,29 @@ function Offers() {
     } else searchParams.delete(key);
     setSearchParams(searchParams);
   };
+
   const setTabs = (val: any) => {
     setCurrent(val);
     handleMakeParams("status", val);
     GetOffers();
+    setPage({ current: 1 });
     window.scrollTo(0, 0);
   };
+
   const setPage = (val: any) => {
     setCurrentPage(val.current);
     handleMakeParams("page", val.current);
     GetOffers();
     window.scrollTo(0, 0);
   };
+
+  const setLimit = (val: number) => {
+    setPageSize(val);
+    handleMakeParams("size", val);
+    GetOffers();
+    window.scrollTo(0, 0);
+  }
+
   const urlMaker = () => {
     let url = "&";
     for (let key of searchParams.keys()) {
@@ -116,16 +132,19 @@ function Offers() {
     }
     return url.length > 2 ? url : "";
   };
+
   const closeModal = () => {
     setCurrentOffer([]);
     form.resetFields();
     setOpen(false);
   };
+
   const openModal = (item: IOffer) => {
     form.setFieldsValue(item);
     setCurrentOffer([item]);
     setOpen(true);
   };
+
   const submitOffer = async (val: IOffer) => {
     try {
       const { data } = await SendOffersConfig(
@@ -162,9 +181,11 @@ function Offers() {
       );
     } catch (error) {
       CatchError(error);
+    } finally {
+      setLoading(false);
     }
-    setLoading(false);
   };
+
   const deleteOffer = async () => {
     try {
       const { data } = await DelOfferIdConfig(currentOffer[0]?.id);
@@ -190,9 +211,12 @@ function Offers() {
         onChange={setPage}
         dataSource={offers}
         pagination={{
-          total: total,
-          pageSize: 10,
+          total,
+          pageSize,
           current: +currentpage,
+          showSizeChanger: true,
+          pageSizeOptions: ['10', '20', '50'],
+          onShowSizeChange: (_, size) => setLimit(size),
         }}
       />
 

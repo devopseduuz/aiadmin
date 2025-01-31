@@ -58,20 +58,19 @@ function News() {
     showPathLabel: false,
   };
   const GiveTrans = (news: INews, title = "title") => {
-    console.log(news);
     const lang = localStorage.getItem("lang") ?? "RU";
     if (title == "title") {
       return lang == "RU"
         ? news?.titleRU
         : lang == "EN"
-        ? news?.titleEN
-        : news?.titleUZ;
+          ? news?.titleEN
+          : news?.titleUZ;
     } else if (title == "anons") {
       return lang == "RU"
         ? news?.anonsRU
         : lang == "EN"
-        ? news?.anonsEN
-        : news?.anonsUZ;
+          ? news?.anonsEN
+          : news?.anonsUZ;
     }
   };
 

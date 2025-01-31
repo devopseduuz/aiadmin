@@ -218,6 +218,10 @@ i18n
               name: "Oliy ta’lim, fan va innovatsiyalar vazirligi huzurida sun’iy intellekt texnologiyalari bo‘yicha Maslahat kengashi nizomi",
               info: "",
             },
+            document5: {
+              name: "Sun’iy intellekt texnologiyalarini 2030-yilga qadar rivojlantirish strategiyasini tasdiqlash to‘g‘risida",
+              info: "O‘zbekiston Respublikasi Prezidentining qarori, 14.10.2024 yildagi PQ-358-son",
+            },
           },
           news: {
             title:
@@ -511,6 +515,10 @@ i18n
               name: "Regulation about the Advisory Council on Artificial Intelligence under the Ministry of Higher Education, Science and Innovation of the Republic of Uzbekistan",
               info: "",
             },
+            document5: {
+              name: "On the approval of the Strategy for the Development of Artificial Intelligence Technologies until 2030",
+              info: "Resolution of the President of the Republic of Uzbekistan, от 14.10.2024 г. № RP-358",
+            },
           },
           news: {
             title: "School Teachers Technical Skill Development Programme",
@@ -800,6 +808,10 @@ i18n
             document4: {
               name: "Положение о консультативном совете по искусственному интеллекту при Министерстве высшего образования, науки и инноваций Республики Узбекистан",
               info: "",
+            },
+            document5: {
+              name: "Об утверждении Стратегии развития технологий искусственного интеллекта до 2030 года",
+              info: "Постановление Президента Республики Узбекистан, от 14.10.2024 г. № ПП-35",
             },
           },
           news: {
