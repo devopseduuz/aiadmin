@@ -375,7 +375,7 @@ const Home: React.FC = () => {
         <Partners />
 
         <div className="container">
-          <div className="home__ministr">
+          {/* <div className="home__ministr">
             <h2 className="section_title">{t("home.ministers_view")}</h2>
 
             <div>
@@ -391,7 +391,7 @@ const Home: React.FC = () => {
                 <img className="minister-image" src={require("src/assets/images/ministr.jpg")} alt="" />
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="home__email">
             <h2>{t("home.email")}</h2>
